@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-<img src="assets/methods.png" width=90%>
+<img src="assets/method.png" width=90%>
 <p>
 
 ## Introduction
