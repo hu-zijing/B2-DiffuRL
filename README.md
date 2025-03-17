@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arxiv_paper-x.x-b31b1b)](https://arxiv.org)&nbsp;
+[![arXiv](https://img.shields.io/badge/arxiv-2503.11240-b31b1b)](https://arxiv.org/abs/2503.11240)&nbsp;
 [![code](https://img.shields.io/badge/code-B2--DiffuRL-blue)](https://github.com/hu-zijing/B2-DiffuRL)&nbsp;
 
 </div>
@@ -36,5 +36,13 @@ This repository was built with much reference to the following repositories:
 If our work assists your research, feel free to cite us using:
 
 ```
-
+@misc{hu2025betteralignmenttrainingdiffusion,
+      title={Towards Better Alignment: Training Diffusion Models with Reinforcement Learning Against Sparse Rewards}, 
+      author={Zijing Hu and Fengda Zhang and Long Chen and Kun Kuang and Jiahui Li and Kaifeng Gao and Jun Xiao and Xin Wang and Wenwu Zhu},
+      year={2025},
+      eprint={2503.11240},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.11240}, 
+}
 ```
