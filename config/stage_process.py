@@ -43,7 +43,7 @@ def get_config():
     config.pretrained = pretrained = ml_collections.ConfigDict()
     # base model to load. either a path to a local directory, or a model name from the HuggingFace model hub.
     # pretrained.model = "stablediffusionapi/anything-v5"
-    pretrained.model = "./model/stablediffusion/sdv2.1-base"
+    pretrained.model = "./model/stablediffusion/sdv1.4"
     # revision of the model to load.
     pretrained.revision = "main"
 
@@ -75,7 +75,7 @@ def get_config():
     # whether to use the 8bit Adam optimizer from bitsandbytes.
     train.use_8bit_adam = False
     # learning rate.
-    train.learning_rate = 3e-5
+    train.learning_rate = 1e-4
     # Adam beta1.
     train.adam_beta1 = 0.9
     # Adam beta2.

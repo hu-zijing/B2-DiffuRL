@@ -25,7 +25,7 @@ Dev_Id=0
 
 CUDA_FALGS="--config.dev_id ${Dev_Id}"
 SAMPLE_FLAGS="--config.sample.num_batches_per_epoch ${BatchCnt} --config.sample.num_steps ${NumStep} --config.prompt_file ${PromptFile} --config.prompt_random_choose ${RandomPrompt} --config.split_time ${SplitTime}" # 
-EXP_FLAGS="--config.exp_name ${ExpName} --config.save_path ${SavePath} --config.pretrained.model ./model/stablediffusion/${ModelVersion}"
+EXP_FLAGS="--config.exp_name ${ExpName} --config.save_path ${SavePath} --config.pretrained.model ${ModelVersion}"
 
 
 for i in $(seq 0 $((StageCnt-1)))
