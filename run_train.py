@@ -79,7 +79,7 @@ def main(_):
     )
     if accelerator.is_main_process:
         accelerator.init_trackers(
-            project_name="d3po-pytorch", config=config.to_dict(), init_kwargs={"wandb": {"name": unique_id+"_"+stage_id}}
+            project_name="rl-training", config=config.to_dict(), init_kwargs={"wandb": {"name": unique_id+"_"+stage_id}}
         )
     logger.info(f"\n{config}")
 

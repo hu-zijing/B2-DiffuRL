@@ -29,6 +29,7 @@ The full hyperparameters are shown in `config/stage_process.py`, and many of the
 This repository was built with much reference to the following repositories: 
 
 * [DDPO](https://github.com/jannerm/ddpo)
+* [D3PO](https://github.com/yk7333/D3PO/tree/main)
 * [DDPO-Pytorch](https://github.com/kvablack/ddpo-pytorch)
 * [DPOK](https://github.com/google-research/google-research/tree/master/dpok)
 

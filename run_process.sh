@@ -2,7 +2,7 @@ set -e
 
 SaveInterval=2
 SavePath="./model/lora"
-PromptFile="config/prompt/templeta1_train.json"
+PromptFile="config/prompt/template1_train.json"
 RandomPrompt=1
 ExpName="exp_B2DiffuRL_b5_p3"
 Seed=300
